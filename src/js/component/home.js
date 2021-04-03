@@ -10,7 +10,9 @@ export function Home() {
 	// Se define hook para cambio de luz
 	const [light, setLight] = useState(0);
 
-	// Se establece una constante la cual evalúa mediante una función con un switch evalúa el estado de la luz, según estado retorna el semáforo con la luz encendida, el semáforo se define mediante las clases establecidas en el home.scss (por cierto me quedó bonito! :)
+	// Se establece una constante la cual evalúa mediante una función con un switch evalúa el estado de la luz,
+	//según estado retorna el semáforo con la luz encendida, el semáforo se define mediante las clases establecidas
+	//en el home.scss (por cierto me quedó bonito! :)
 	const handleOnClick = light => {
 		switch (light) {
 			//estado 0 luz roja encendida
@@ -19,16 +21,13 @@ export function Home() {
 					<div className="Semaforo">
 						<div
 							className="Light redOn"
-							onClick={() => setLight(0)}
-							key={0}></div>
+							onClick={() => setLight(0)}></div>
 						<div
 							className="Light yellowOff"
-							onClick={() => setLight(1)}
-							key={1}></div>
+							onClick={() => setLight(1)}></div>
 						<div
 							className="Light greenOff"
-							onClick={() => setLight(2)}
-							key={2}></div>
+							onClick={() => setLight(2)}></div>
 					</div>
 				);
 			//estado 1 luz amarilla encendida
