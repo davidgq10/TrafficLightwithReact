@@ -60,20 +60,6 @@ export function Home() {
 							onClick={() => setLight(2)}></div>
 					</div>
 				);
-			default:
-				return (
-					<div className="Semaforo">
-						<div
-							className="Light redOn"
-							onClick={() => setLight(0)}></div>
-						<div
-							className="Light yellowOff"
-							onClick={() => setLight(1)}></div>
-						<div
-							className="Light greenOff"
-							onClick={() => setLight(2)}></div>
-					</div>
-				);
 		}
 	};
 
