@@ -1,0 +1,57 @@
+.Light{
+    width: 5rem ;
+    height: 5rem;
+    border: 2px;
+    border-radius: 100%;
+    opacity: 90%;
+    margin: 10px auto;
+}
+
+.redOff{
+    background-color: rgb(95, 4, 4);
+}
+
+.redOn{
+    background: radial-gradient(red 0%, rgb(252, 74, 74) 40%, rgb(255, 145, 137) 90%);
+    box-shadow: 0 0 40px red;
+}
+
+.yellowOff{
+    background-color: rgb(112, 111, 18);
+}
+
+.yellowOn{
+    background: radial-gradient(yellow 0%, rgb(255, 252, 83) 40%, rgb(255, 240, 153) 90%);
+    box-shadow: 0 0 40px yellow;
+}
+
+
+.greenOn{
+    background: radial-gradient(rgb(5, 153, 5) 0%, rgb(27, 206, 21) 40%, rgb(137, 238, 107) 90%);
+    box-shadow: 0 0 40px rgb(5, 153, 5);
+}
+
+.greenOff{
+    background-color: rgb(2, 71, 6);
+
+}
+
+
+
+.Semaforo{
+    width: 7rem;
+    height: 20rem;
+    margin: auto;
+    background-color: rgb(29, 29, 29) ;
+    border-radius: 10px;
+    display: block;
+    padding-top: 20px;
+}
+
+.Poste{
+    width: 1rem;
+    height: 10rem;
+    margin: auto;
+    background-color: rgb(29, 29, 29) ;
+    display: block;
+}
