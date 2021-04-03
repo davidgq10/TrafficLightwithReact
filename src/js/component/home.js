@@ -2,9 +2,6 @@ import React, { useState } from "react";
 import { Container, Button, Row, Image, Col } from "react-bootstrap";
 import "/workspace/react-hello/src/styles/home.scss";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-
 //Se exporta semáforo en el componente Home
 export function Home() {
 	// Se define hook para cambio de luz
