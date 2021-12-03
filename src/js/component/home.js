@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, Button, Row, Image, Col } from "react-bootstrap";
-import "/workspace/react-hello/src/styles/home.scss";
+import "/workspace/TrafficLightwithReact/src/styles/home.scss";
 
 //Se exporta semáforo en el componente Home
 export function Home() {
